@@ -4,7 +4,6 @@ import { getProduct } from "../services";
 import { useParams } from "react-router-dom";
 import { useTitle } from "../hooks/useTitle";
 import { useCart } from "../context";
-import { getProduct } from "../services";
 
 export const ProductDetail = () => {
   const [product, setProduct] = useState({});
